@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import ContactForm from "./components/ContactForm";
-import SearchBox from "./components/SearchBox";
-import ContactList from "./components/ContactList";
+import ContactForm from "./ContactForm";
+import SearchBox from "./SearchBox";
+import ContactList from "./ContactList";
 
 const App = () => {
   const getInitialContacts = () => {
